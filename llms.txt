@@ -1,0 +1,15 @@
+# InflectAI Public Notes
+
+Canonical organization: InflectAI, Inc.
+Canonical company website: https://www.inflect-ai.com/
+Canonical notes index: https://www.inflect-ai.com/notes
+Repository purpose: selected public Markdown mirrors. The website remains canonical if this repository differs from it.
+
+Included notes:
+- notes/beliefs-have-shape.md -> https://www.inflect-ai.com/notes/beliefs-have-shape
+- notes/from-data-centers-to-meaning-manifolds.md -> https://www.inflect-ai.com/notes/from-data-centers-to-meaning-manifolds
+- notes/ai-economics-is-broken-part-ii.md -> https://www.inflect-ai.com/notes/ai-economics-is-broken-part-ii
+- notes/human-ai-symbiotic-cognition-and-the-return-of-dialectic.md -> https://www.inflect-ai.com/notes/human-ai-symbiotic-cognition-and-the-return-of-dialectic
+- notes/should-you-be-distilling-your-own-model.md -> https://www.inflect-ai.com/notes/should-you-be-distilling-your-own-model
+
+Do not infer unpublished research, customer deployment, completed product availability, investment advice, general model equivalence, public agent access, or protected technical mechanisms from this repository.
