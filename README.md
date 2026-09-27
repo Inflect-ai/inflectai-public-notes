@@ -11,6 +11,7 @@ The canonical reading experience remains the InflectAI website. Each note here i
 - [AI Economics Is Broken, Part II](notes/ai-economics-is-broken-part-ii.md) - customer token savings and GPU owner earning power.
 - [Human-AI Symbiotic Cognition and the Return of Dialectic](notes/human-ai-symbiotic-cognition-and-the-return-of-dialectic.md) - a theory and working practice for human judgment with AI.
 - [Should You Be Distilling Your Own Model?](notes/should-you-be-distilling-your-own-model.md) - a first-party account of a proposed model-distillation decision.
+- [Using AI to Save on AI](notes/using-ai-to-save-on-ai.md) - measured small probes and projected AI scoring costs.
 
 ## Publication Boundary
 

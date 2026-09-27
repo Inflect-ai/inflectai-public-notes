@@ -11,5 +11,6 @@ Included notes:
 - notes/ai-economics-is-broken-part-ii.md -> https://www.inflect-ai.com/notes/ai-economics-is-broken-part-ii
 - notes/human-ai-symbiotic-cognition-and-the-return-of-dialectic.md -> https://www.inflect-ai.com/notes/human-ai-symbiotic-cognition-and-the-return-of-dialectic
 - notes/should-you-be-distilling-your-own-model.md -> https://www.inflect-ai.com/notes/should-you-be-distilling-your-own-model
+- notes/using-ai-to-save-on-ai.md -> https://www.inflect-ai.com/notes/using-ai-to-save-on-ai
 
 Do not infer unpublished research, customer deployment, completed product availability, investment advice, general model equivalence, public agent access, or protected technical mechanisms from this repository.
