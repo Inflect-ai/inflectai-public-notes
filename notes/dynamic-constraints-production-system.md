@@ -40,14 +40,14 @@ The firm requires several capability bundles to produce an economic result. I us
 
 | Bundle | Capability | Question |
 |---|---|---|
-| $C_O$ | Opportunity and demand | Is the problem real, valuable, and reachable? |
-| $C_F$ | Founder and leadership | Can leadership perceive, decide, recruit, adapt, and hold the system together? |
-| $C_R$ | Knowledge, invention, and validation | Is the proposition technically and empirically true? |
-| $C_I$ | Defensibility and institutional architecture | Can the venture preserve and govern the value it creates? |
-| $C_E$ | Engineering and productization | Can the knowledge become a reliable product or service? |
-| $C_D$ | Distribution and commercialization | Can customers be reached, contracted, served, retained, and expanded? |
-| $C_A$ | Organizational execution | Can humans, agents, capital, decisions, and workflows be coordinated? |
-| $C_K$ | Capital and runway | Is the quantity, timing, form, and patience of capital adequate? |
+| $`C_O`$ | Opportunity and demand | Is the problem real, valuable, and reachable? |
+| $`C_F`$ | Founder and leadership | Can leadership perceive, decide, recruit, adapt, and hold the system together? |
+| $`C_R`$ | Knowledge, invention, and validation | Is the proposition technically and empirically true? |
+| $`C_I`$ | Defensibility and institutional architecture | Can the venture preserve and govern the value it creates? |
+| $`C_E`$ | Engineering and productization | Can the knowledge become a reliable product or service? |
+| $`C_D`$ | Distribution and commercialization | Can customers be reached, contracted, served, retained, and expanded? |
+| $`C_A`$ | Organizational execution | Can humans, agents, capital, decisions, and workflows be coordinated? |
+| $`C_K`$ | Capital and runway | Is the quantity, timing, form, and patience of capital adequate? |
 
 These are capabilities, not departments. A company can have a CRO and still be weak at distribution. It can have a large engineering staff and still be unable to productize its knowledge. It can have cash and still lack the *kind* of capital that allows it to change direction. A financing round that demands immediate revenue acceleration may remove a runway constraint while making product reinvention harder.
 
@@ -65,21 +65,21 @@ The requirement for each bundle changes with the company's *functional* stage:
 
 A stage is an achievement condition, not a measure of company age or the name of its last financing round. A nine-year-old Series B business can be forced back into Stage 3 when AI changes the customer's workflow and renders its old product abstraction insufficient. The production function's set of indispensable bundles and their thresholds change with that reset.
 
-For venture $j$ at time $t$, with functional stage $s_{jt}$, I write stage-adjusted productive progress as
+For venture $`j`$ at time $`t`$, with functional stage $`s_{jt}`$, I write stage-adjusted productive progress as
 
-$$
+```math
 Y_{jt}
 =
 \Omega_{jt} H_{jt} G_{jt}
 \min_{k\in\mathcal K_{s_{jt}}}
 \left(\frac{C_{jkt}}{\tau_{ks_{jt}}}\right).
-$$
+```
 
-$\Omega$ sets the economic scale of the opportunity in the same units as $Y$. $H$ and $G$ are multipliers between zero and one: $H$ captures hard gates, such as required regulatory approval, while $G$ captures the quality of critical execution, such as whether an experiment was valid. They act outside the capability bundles; failing a gate or a critical task can reduce output even when bundle capacity is high. $C_{jkt}$ is the effective capacity of indispensable bundle $k$, while $\tau_{ks_{jt}}$ is the threshold that bundle must meet at the current stage. The outer minimum is the Leontief part. Progress is constrained by the lowest indispensable capacity *relative to its stage requirement*, rather than by an average of the company's strengths.
+$`\Omega`$ sets the economic scale of the opportunity in the same units as $`Y`$. $`H`$ and $`G`$ are multipliers between zero and one: $`H`$ captures hard gates, such as required regulatory approval, while $`G`$ captures the quality of critical execution, such as whether an experiment was valid. They act outside the capability bundles; failing a gate or a critical task can reduce output even when bundle capacity is high. $`C_{jkt}`$ is the effective capacity of indispensable bundle $`k`$, while $`\tau_{ks_{jt}}`$ is the threshold that bundle must meet at the current stage. The outer minimum is the Leontief part. Progress is constrained by the lowest indispensable capacity *relative to its stage requirement*, rather than by an average of the company's strengths.
 
 Within a bundle, inputs may partially substitute for one another. The companion Leontief-CES foundation expresses that inner capacity as
 
-$$
+```math
 C_{jkt}
 =
 \left[
@@ -89,33 +89,33 @@ C_{jkt}
 \right]^{1/\rho_{ks}},
 \qquad
 \sigma_{ks}=\frac{1}{1-\rho_{ks}}.
-$$
+```
 
-Here $x_{jmt}$ is an input's quantity or quality, $\underline{x}_{kms}$ is its floor, $(z)_+=\max(z,0)$, and $\alpha_{kms}$ is a stage-specific weight. $\sigma_{ks}$ governs the degree of substitution within the bundle. Founder selling can temporarily substitute for a formal sales organization. AI agents can take on portions of research or implementation. Contractual guarantees can sometimes substitute for balance-sheet capital. None of those substitutions is unlimited. Coding capacity cannot repair an incoherent product architecture, and more sales cannot create value that customers do not receive.
+Here $`x_{jmt}`$ is an input's quantity or quality, $`\underline{x}_{kms}`$ is its floor, $`(z)_+=\max(z,0)`$, and $`\alpha_{kms}`$ is a stage-specific weight. $`\sigma_{ks}`$ governs the degree of substitution within the bundle. Founder selling can temporarily substitute for a formal sales organization. AI agents can take on portions of research or implementation. Contractual guarantees can sometimes substitute for balance-sheet capital. None of those substitutions is unlimited. Coding capacity cannot repair an incoherent product architecture, and more sales cannot create value that customers do not receive.
 
 The normalized ratio and current binding constraint are
 
-$$
+```math
 r_{jkt}=\frac{C_{jkt}}{\tau_{ks_{jt}}},
 \qquad
 b_{jt}=\arg\min_{k\in\mathcal K_{s_{jt}}}r_{jkt}.
-$$
+```
 
-The shortfall against a stage threshold is $\Delta_{jkt}=\max(0,\tau_{ks_{jt}}-C_{jkt})$. For an intervention $u$, the companion foundation writes the changed capability as $C'_{jkt}=C_{jkt}+\Delta C_{jkt}(u)$ and the immediate change in progress as
+The shortfall against a stage threshold is $`\Delta_{jkt}=\max(0,\tau_{ks_{jt}}-C_{jkt})`$. For an intervention $`u`$, the companion foundation writes the changed capability as $`C'_{jkt}=C_{jkt}+\Delta C_{jkt}(u)`$ and the immediate change in progress as
 
-$$
+```math
 \Delta Y_{jt}(u)
 =Y_{jt}(C'_{j1t},\ldots,C'_{jKt})
 -Y_{jt}(C_{j1t},\ldots,C_{jKt}).
-$$
+```
 
-Holding the other terms fixed, adding capacity to a bundle that is well above the unique minimum may have no immediate effect on $Y$. That is the mathematical reason a busy department can report excellent local performance while the company's economic output barely moves. The intervention has to reach the present bottleneck, prepare for the imminent one, or change the shape of the function.
+Holding the other terms fixed, adding capacity to a bundle that is well above the unique minimum may have no immediate effect on $`Y`$. That is the mathematical reason a busy department can report excellent local performance while the company's economic output barely moves. The intervention has to reach the present bottleneck, prepare for the imminent one, or change the shape of the function.
 
 The company also needs to estimate the *imminent* constraint: the factor likely to become binding after a successful intervention or stage change. If customer access is binding now, founder-led sales may move it. Implementation capacity may then bind next. Building that capacity before the sales motion accelerates avoids discovering the constraint through failed deliveries.
 
 For a stage change, the companion foundation estimates the next binding constraint as
 
-$$
+```math
 \tilde b_{jt}
 =
 \arg\min_k
@@ -123,9 +123,9 @@ $$
 \frac{C_{jkt}+\mathbb E[\dot C_{jkt}]\Delta t}
 {\tau_{k,s_{jt}+1}}
 \right].
-$$
+```
 
-For an intervention within the current stage, substitute the changed capacities $C'_{jkt}$ and keep the current-stage thresholds $\tau_{k,s_{jt}}$. The next-stage calculation is an estimate, not a promise that capacities will grow at the expected rate. It forces the analyst to look at the threshold the next stage will demand before the present bottleneck has been fully relieved.
+For an intervention within the current stage, substitute the changed capacities $`C'_{jkt}`$ and keep the current-stage thresholds $`\tau_{k,s_{jt}}`$. The next-stage calculation is an estimate, not a promise that capacities will grow at the expected rate. It forces the analyst to look at the threshold the next stage will demand before the present bottleneck has been fully relieved.
 
 ## The Constraint Moves
 
@@ -135,11 +135,11 @@ Recursive Production Function Analysis, or RPFA, starts by defining the *economi
 
 I call that operating loop Constraint Cascade Analysis, or CCA:
 
-$$
+```math
 \text{map}\ \longrightarrow\ \text{hypothesize}\ \longrightarrow\
 \text{test}\ \longrightarrow\ \text{intervene}\ \longrightarrow\
 \text{observe}\ \longrightarrow\ \text{recompute}.
-$$
+```
 
 The loop can advance the company to its next functional stage. It can stabilize a repeatable business. It can show that the opportunity has failed. It can also lead to a more disruptive result: the intervention may change which factors are needed to produce output. At that point the appropriate response is to reconstruct the production function. I distinguish three levels in the analysis. Level 1 detects the constraint. Level 2 removes it. Level 3 asks whether we would build the same company, product, and production architecture from scratch now that the intervention has changed what is possible.
 
@@ -195,11 +195,11 @@ This also changes the people I would recruit into the central operating unit. Do
 
 ## The Same Theory, One Altitude Down
 
-The firm is not the only unit to which DCPS applies. A single at-scale production run also turns inputs into an output through indispensable stages. Extracting, classifying, embedding, scoring, and resolving a corpus are sequential complements. In the nested CES-Leontief view, the outer nest has very low substitution elasticity across stages: $\sigma_{\mathrm{outer}}\approx 0$. More embedding throughput cannot compensate for scoring that has not occurred. Within a stage, workers, per-worker compute, shared-store IO, and vendor tiers have finite substitution possibilities: $\sigma_{\mathrm{inner}}$ must be estimated where the run intends to rely on it. A shared write primary can become an input to every stage, and an external batch API can impose a latency floor that our own worker count cannot move.
+The firm is not the only unit to which DCPS applies. A single at-scale production run also turns inputs into an output through indispensable stages. Extracting, classifying, embedding, scoring, and resolving a corpus are sequential complements. In the nested CES-Leontief view, the outer nest has very low substitution elasticity across stages: $`\sigma_{\mathrm{outer}}\approx 0`$. More embedding throughput cannot compensate for scoring that has not occurred. Within a stage, workers, per-worker compute, shared-store IO, and vendor tiers have finite substitution possibilities: $`\sigma_{\mathrm{inner}}`$ must be estimated where the run intends to rely on it. A shared write primary can become an input to every stage, and an external batch API can impose a latency floor that our own worker count cannot move.
 
 This lower altitude gives the theory an empirical instrument. At the firm level, substitution elasticities often take quarters to infer. In a pipeline, a controlled canary can step worker count from two to four to eight and measure what additional workers actually buy. It can test whether a proposed lever has a positive effect under the production conditions that matter. A read replica is a fake lever for a write-bound primary. More concurrent batch jobs may also be fake if the vendor's active-token ceiling remains fixed. A model that assumes those levers work will produce a confident plan for a run that cannot finish on time.
 
-I call the canary a $\sigma$-meter. It tests or bounds the substitution claims on which the run depends. A measured response is not automatically the CES substitution elasticity; identifying $\sigma$ requires a controlled test of how inputs replace one another under the specified production model. A coefficient such as dollars per atom or writes per atom can be read from a bill or an instrumented run. An elasticity of substitution asks how readily one input can replace another while maintaining output. The canary returns GO when the lever has measured headroom, NO-GO when the supposed lever does not move the constraint, and CANNOT-RUN when the effect could not be measured. The measurement needs a provenance stamp: instance class, vendor, corpus size, cache state, and other conditions under which the result was observed. If worker count and cache warmth change together, the resulting slope is observational. We should record the confound and use the slope as a bound until a controlled step isolates the effect.
+I call the canary a $`\sigma`$-meter. It tests or bounds the substitution claims on which the run depends. A measured response is not automatically the CES substitution elasticity; identifying $`\sigma`$ requires a controlled test of how inputs replace one another under the specified production model. A coefficient such as dollars per atom or writes per atom can be read from a bill or an instrumented run. An elasticity of substitution asks how readily one input can replace another while maintaining output. The canary returns GO when the lever has measured headroom, NO-GO when the supposed lever does not move the constraint, and CANNOT-RUN when the effect could not be measured. The measurement needs a provenance stamp: instance class, vendor, corpus size, cache state, and other conditions under which the result was observed. If worker count and cache warmth change together, the resulting slope is observational. We should record the confound and use the slope as a bound until a controlled step isolates the effect.
 
 There is an economic reason to model the run before firing a large discovery canary. If we learn the constraints only by hitting them at scale, the first run pays tuition and later runs inherit the lesson. A constraint model can name the uncertain elasticities and the smallest experiments that would settle them. The canary then pays a verification fee before the first full run. It still catches genuinely new failure modes. The measured coefficients and elasticities refit the model afterward, so the knowledge compounds in a reusable artifact instead of disappearing into chat or an operator's memory.
 
@@ -291,6 +291,6 @@ The firm-altitude analysis can be executed without turning the theory into a slo
 
 At the pipeline altitude, match a run to an archetype by its constraint signature and record that match as a correctable decision. Populate coefficient slots from grounded evidence. Mark elasticity slots as measured or assumed. Test each assumed lever with the smallest controlled canary that can change a decision; stamp the result with the conditions of measurement. A GO permits the scoped scale run, a NO-GO rejects the lever the run was counting on, and CANNOT-RUN remains an unresolved gate. The full run should use production-identical configuration. After it finishes, recompute the binding and imminent constraints, ask whether the archetype's shape is still right, and refit the library. This prevents a successful old recipe from becoming a machine for faithfully optimizing an obsolete production system.
 
-This essay follows DCPS v0.2. Its firm-altitude argument derives from RPFA v0.1; the pipeline altitude, the $\sigma$-meter, and the archetype library are the v0.2 extension. The Centaur 2.0 path is hypothetical. The O0 figures describe one measured run, while its worker-response slopes remain observational bounds pending a controlled step-test.
+This essay follows DCPS v0.2. Its firm-altitude argument derives from RPFA v0.1; the pipeline altitude, the $`\sigma`$-meter, and the archetype library are the v0.2 extension. The Centaur 2.0 path is hypothetical. The O0 figures describe one measured run, while its worker-response slopes remain observational bounds pending a controlled step-test.
 
 [^o0-context]: These measurements describe the O0 run under its then-current infrastructure, corpus, cache state, and workload conditions. They are historical observations, not a description of InflectAI's current architecture or universal performance characteristics.
