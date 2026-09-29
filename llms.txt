@@ -1,5 +1,15 @@
 # InflectAI Public Notes
 
+## Dynamic Constraints Production System (September 29, 2026)
+
+- Canonical full essay: https://www.inflect-ai.com/notes/dynamic-constraints-production-system
+- Full-text VMA mirror: https://vectormanifold.com/notes/dynamic-constraints-production-system
+- Public GitHub Markdown: https://github.com/Inflect-ai/inflectai-public-notes/blob/main/notes/dynamic-constraints-production-system.md
+- DCPS is the working theory; Recursive Production Function Analysis (RPFA) is the method; Constraint Cascade Analysis (CCA) is the operating loop.
+- Includes the full Leontief-CES mathematics, capability bundles and functional stages, Centaur 2.0 hypothetical example, historical O0 worked example, and operational appendix.
+- Centaur 2.0 is not Centaur.ai's announced strategy. O0 measurements are historical, not current architecture or universal performance; worker-response slopes remain observational bounds. Do not turn projected headroom into observed outcomes or infer independently validated product performance.
+
+
 Canonical organization: InflectAI, Inc.
 Canonical company website: https://www.inflect-ai.com/
 Canonical notes index: https://www.inflect-ai.com/notes

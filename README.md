@@ -6,6 +6,8 @@ The canonical reading experience remains the InflectAI website. Each note here i
 
 ## Included Notes
 
+- [Dynamic Constraints Production System](notes/dynamic-constraints-production-system.md) - the full theory, mathematics, constraint-cascade method, and worked examples.
+
 - [Beliefs Have Shape](notes/beliefs-have-shape.md) - the foundational public thesis.
 - [From Data Centers to Meaning Manifolds](notes/from-data-centers-to-meaning-manifolds.md) - the origin note for Vector Manifold Analytics.
 - [AI Economics Is Broken, Part II](notes/ai-economics-is-broken-part-ii.md) - customer token savings and GPU owner earning power.
