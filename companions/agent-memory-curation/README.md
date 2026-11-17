@@ -43,6 +43,6 @@ Unknown actor identity widens advisory context and grants no rights. The adapter
 
 Before attaching a real runtime, validate that runtime's event contract and inspect what the agent actually receives. Enforce consequential-action permissions in the execution tool, independently of this reminder.
 
-## License Review Status
+## License
 
-The proposed package license is MIT, limited to this directory. It is subject to ownership confirmation, license and disclosure review, and explicit release approval. [LICENSE-PROPOSAL.md](LICENSE-PROPOSAL.md) is review text, not a license grant. No license for the parent repository, article, private implementation, or trademarks is proposed by this package.
+The Python, JSON fixture, tests, and associated documentation in this directory are licensed under the [MIT License](LICENSE), copyright 2026 InflectAI, Inc. This directory-local license does not license the article, parent repository, private implementation, or trademarks.

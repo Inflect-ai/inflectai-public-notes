@@ -17,7 +17,7 @@ The canonical reading experience remains the InflectAI website. Each note here i
 
 ## Companion Examples
 
-- [Agent Memory Curation](companions/agent-memory-curation/README.md) - a synthetic instruction-delivery demonstration, JSON adapter, and 19 tests. Its directory-local license status does not license other notes or repository content.
+- [Agent Memory Curation](companions/agent-memory-curation/README.md) - a synthetic instruction-delivery demonstration, JSON adapter, and 19 tests under its [directory-local MIT license](companions/agent-memory-curation/LICENSE). That license grants no rights to notes or other repository content.
 
 ## Publication Boundary
 
