@@ -1,0 +1,20 @@
+[
+  {
+    "id": "deployment-review",
+    "version": 2,
+    "status": "LIVE",
+    "applies_to": ["*"],
+    "acts": ["deployment"],
+    "text": "Production deployment requires a review of this exact artifact. An earlier artifact's approval does not transfer.",
+    "source": "operator-decision:example-002"
+  },
+  {
+    "id": "deployment-review-old",
+    "version": 1,
+    "status": "ENDED",
+    "applies_to": ["*"],
+    "acts": ["deployment"],
+    "text": "Use the earlier deployment procedure.",
+    "source": "operator-decision:example-001"
+  }
+]

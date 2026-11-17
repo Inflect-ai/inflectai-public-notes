@@ -15,9 +15,13 @@ The canonical reading experience remains the InflectAI website. Each note here i
 - [Should You Be Distilling Your Own Model?](notes/should-you-be-distilling-your-own-model.md) - a first-party account of a proposed model-distillation decision.
 - [Using AI to Save on AI](notes/using-ai-to-save-on-ai.md) - measured small probes and projected AI scoring costs.
 
+## Companion Examples
+
+- [Agent Memory Curation](companions/agent-memory-curation/README.md) - a synthetic instruction-delivery demonstration, JSON adapter, and 19 tests. Its directory-local license status does not license other notes or repository content.
+
 ## Publication Boundary
 
-This is a curated release surface, not a dump of internal work. It does not contain unpublished drafts, datasets, evaluation fixtures, private research, protected mechanisms, patents, or product systems. Notes are added only after their canonical InflectAI version is public.
+This is a curated release surface, not a dump of internal work. It does not contain unpublished article drafts, private datasets or evaluation fixtures, private research, protected mechanisms, patents, or product systems. Notes are added only after their canonical InflectAI version is public. Separately reviewed companion code and synthetic teaching fixtures may accompany a publication; they require exact-artifact disclosure review, an approved scoped license, and explicit release approval before a public push.
 
 InflectAI, Inc. is a holding company and venture studio building companies around Meaning Manifold Dynamics. Its first company, [Vector Manifold Analytics](https://vectormanifold.com/), applies that work to financial markets.
 
